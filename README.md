@@ -59,5 +59,37 @@ Then, we can execute the jar file by running the following from the command line
 ```
 java -jar target\assignment-1.0.0.jar
 ```
+On running the JAR file, the application runs two sample arrays and provides their traversed result, and waits for input by the user.
+<br>
+The format of the input expected is as follows:
+```
+<row size : int>
+<column size : int>
+<first row of array separated by comma>
+<second row of array separated by comma>
+.
+.
+.
+<last row of array separated by comma>
+```
+
+An example input from the console would look like:
+```
+4 <-- row size
+4 <-- column size
+1,2,3,4 <-- first row
+5,6,7,8 <-- second row
+9,10,11,12 <-- third row
+13,14,15,16 <-- fourth row
+```
+
+Another example console input with a 3 x 5 2D Array would look like:
+```
+3
+5
+1,2,3,4,5
+6,7,8,9,10
+11,12,13,14,15
+```
 
 If you have any questions, feel free to contact me at [debadeep.basu@gmail.com](mailto:debadeep.basu@gmail.com)
